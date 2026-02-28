@@ -91,6 +91,11 @@ minecraft {
     }
     extraRunJvmArguments.addAll(args)
     extraRunJvmArguments.addAll(propertyStringList('extra_jvm_args'))
+    extraRunJvmArguments.addAll([
+            "-Dfml.coreMods.load=com.domovishche.gentweaker.mixin.MyEarlyMixinLoader",
+            "-Dmixin.hotSwap=true",
+            "-Dmixin.checks.interfaces=true"
+    ])
 
     if (propertyBool('use_tags')) {
         if (file('tags.properties').exists()) {

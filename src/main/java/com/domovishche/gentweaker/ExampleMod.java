@@ -1,6 +1,6 @@
-package com.example.modid;
+package com.domovishche.gentweaker;
 
-import com.example.modid.Tags;
+import com.domovishche.gentweaker.Tags;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.LogManager;

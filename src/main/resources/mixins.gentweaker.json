@@ -1,0 +1,14 @@
+{
+	"package": "com.domovishche.gentweaker.mixin",
+	"required": true,
+	"refmap": "${mixin_refmap}",
+	"target": "@env(DEFAULT)",
+	"minVersion": "0.8.5",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": ["MixinBlockChorusFlower","MixinBlockDoublePlant"],
+	"server": [],
+	"client": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
